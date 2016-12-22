@@ -1,7 +1,7 @@
 project:
-  machine_name: blted8
+  machine_name: moyaonehunt
   prefix: BLT
-  human_name: 'BLTed 8'
+  human_name: 'Moyaone Hunt Site'
   profile:
     name: lightning
   local:
@@ -10,7 +10,7 @@ project:
 git:
   default_branch: master
   remotes:
-    - 'bolt8@svn-5223.devcloud.hosting.acquia.com:bolt8.git'
+    - 'eedkatz@svn-17778.prod.hosting.acquia.com:eedkatz.git'
 drush:
   aliases:
     remote: '${project.machine_name}.test'
